@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ghana Akan Name Generator</title>
+    <link rel="stylesheet" href="css/style.css" media="all">
+    <link rel="icon" href="images/ghana.png" type="img/jpg">
+  </head>
+  <body>
+    <div class="content">
+      <div class="container">
+        <h1>AKAN NAME GENERATOR!</h1>
+        <p> <span>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name. This naming tradition is shared throughout West Africa and the African diaspora. During the 18th–19th centuries, enslaved people in the Caribbean from the region that is modern-day Ghana were referred to as Coromantees. Many of the leaders of enslaved people's rebellions had "day names" including Cuffy, Cuffee or Kofi, Cudjoe or Kojo, Quao or Quaw, and Quamina or Kwame/Kwamina. Most Ghanaians have at least one name from this system, even if they also have an English or Christian name. Notable figures with day names include Ghana's first president Kwame Nkrumah and former United Nations Secretary-General Kofi Annan. In the official orthography of the Twi language, the Ashanti versions of these names as spoken in Kumasi</span></p>
+        <p>Akan names are derived from Ghanian culture. Get your Akan name by filling the form below!
+        <form class="myform" onsubmit="return getAkanName()">
+          <label for="year-of-birth">input" type="number" name="year-of-birth" placeholder="YYYY" value="" required>
+          </label>
+          <label for="month-of-birth">
+            Month Born:
+            <input id="month-input" type="number" name="month-of-birth" placeholder="MM" value="" required>
+          </label>
+          <label for="day-of-birth">
+            Day Born:
+            <input id="day-input" type="number" name="day-of-birth" placeholder="DD" value="" required>
+          </label>
+          <br>
+          <label for="gender">
+            <p>What is your gender: </p>
+            Male
+            <input id="male-input" type="radio" name="gender" value="male" required>
+            Female
+            <input id="female-input" type="radio" name="gender" value="female" required>
+
+          </label>
+          <br><br>
+          <input id="get-name" type="submit" name="" value="Get Name">
+          <br><br>
+
+        <h4 id = display-name><span>Your Akan name will be prompted below:</span></h4>
+        <p id="result"></p>
+      </div>
+    </div>
+    <footer class="page-footer ">
+       Copyright DenisKipchirchir@2021-All Rights Reserved
+    </footer>
+
+    <script src="script/script.js" ></script>
+
+  </body>
+</html>
